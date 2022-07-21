@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Ashley</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  <body>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+    <a href="index.html">
+    <h1 style="display: flex; flex-direction: row; justify-content: center; align-items: center;">what's the deal with roe v. wade?</h1>
+    </a> 
+     <span onclick="openNav()" style="color: white; font-family: Roboto; font-size: 30px; border-style: solid; border-color: white; border-width: 3px; ">open menu</span>   
+<style>
+      body {
+      background-image: url('https://cdn.theatlantic.com/thumbor/ocVy6nA08VfH4SwsP47OXWYlMRA=/1500x1000/media/img/photo/2022/05/abortion-protests/a01_RC2UZT9S9FNZ/original.jpg');
+        background-size:cover;
+      }
+    </style>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html" style="font-family: Roboto;">home</a>
+  <a href="factgenerator.html" style="font-family: Roboto;">fact generator</a>
+</div>   
+
+    
+    <div id="main">
+ <p style="display: flex; flex-direction: row; flex-wrap: nowrap; flex-basis: 100%; justify-content: center; align-items: center;">In 1973, Roe v. Wade was established to protect families and women planning to have children, specifically in the realm of abortions. Now it’s been overturned. Why?</p>   
+    <buttons style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 10px">
+    <div class = "extra">
+      <a href = "more_info.html">
+      <button id = "info">MORE INFO</button>
+      </a>
+    </div>
+    <div class = "extra">
+      <a href = "help.html">
+      <button id = "help">HOW YOU CAN HELP</button>
+      </a>
+    </div>
+    </buttons>
+    </div>
+  </body>
+</html>
